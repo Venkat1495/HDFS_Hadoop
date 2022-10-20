@@ -97,6 +97,7 @@ public class TestFileLevelAPI {
 
     public static void main(String[] args) throws Exception {
         //new TestFileLevelAPI().getBlockInfo(args[0]);
+        //new TestFileLevelAPI().getMetadataForDirectory("Repos/HDFS_Hadoop/FileLevelAPI/file-02");
         new TestFileLevelAPI().getMetadataForDirectory(args[0]);
     }
 
